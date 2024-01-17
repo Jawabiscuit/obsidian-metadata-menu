@@ -1,0 +1,34 @@
+---
+tags:
+  - daily
+  - reference
+  - project
+  - goal
+  - yt
+  - home
+  - kanban
+  - company
+  - job-post
+  - web-clip
+  - document
+  - video
+  - chat
+  - meeting
+  - team
+  - standup
+  - 1on1
+  - interview
+  - review
+  - working-session
+  - brainstorm
+  - knowledge-share
+  - presentation
+  - pair-programming
+  - journal
+  - yearly
+  - quarterly
+  - monthly
+  - weekly
+  - daily
+  - book
+---
