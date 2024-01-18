@@ -17,7 +17,7 @@ fields:
       italic: true
     path: ""
     id: vYcbSl
-version: "2.7"
+version: "2.8"
 limit: 20
 mapWithTag: true
 icon: pen-tool
@@ -25,7 +25,7 @@ tagNames:
 filesPaths: 
 bookmarksGroups: 
 excludes: 
-extends: 
+extends: note
 savedViews: []
 favoriteView: 
 fieldsOrder:

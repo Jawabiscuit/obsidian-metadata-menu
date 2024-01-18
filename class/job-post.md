@@ -1,7 +1,7 @@
 ---
 limit: 20
 mapWithTag: true
-icon: megaphone
+icon: pin
 tagNames: 
 filesPaths: 
 bookmarksGroups: 
@@ -12,11 +12,10 @@ favoriteView:
 fieldsOrder:
   - Aw6TGg
   - jSs3bH
-  - b6JUEH
   - 11pd5G
   - 0N3ZIi
   - uMR6kL
-version: "2.15"
+version: "2.19"
 fields:
   - name: active
     type: Boolean
@@ -30,7 +29,10 @@ fields:
   - name: work-from
     type: Select
     options:
-      valuesList: {}
+      valuesList:
+        "1": remote
+        "2": on-site
+        "3": hybrid
       sourceType: ValuesList
       valuesListNotePath: ""
       valuesFromDVQuery: ""
@@ -39,23 +41,16 @@ fields:
   - name: job-type
     type: Select
     options:
-      valuesList: {}
+      valuesList:
+        "1": full-time
+        "2": part-time
+        "3": contract
+        "4": freelance
       sourceType: ValuesList
       valuesListNotePath: ""
       valuesFromDVQuery: ""
     path: ""
     id: 11pd5G
-  - name: applied
-    type: Date
-    options:
-      dateFormat: YYYY-MM-DD
-      defaultInsertAsLink: "false"
-    path: ""
-    id: b6JUEH
-    command:
-      id: insert__b6JUEH
-      icon: calendar
-      label: Insert applied field
   - name: last-contact
     type: Date
     options:

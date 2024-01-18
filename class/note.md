@@ -10,7 +10,7 @@ fields:
     options:
       valuesList: {}
       sourceType: ValuesListNotePath
-      valuesListNotePath: _lookup/tags.md
+      valuesListNotePath: _mm/lookup/tags.md
       valuesFromDVQuery: ""
     path: ""
     id: krAekW
@@ -19,7 +19,7 @@ fields:
     options:
       valuesList: {}
       sourceType: ValuesListNotePath
-      valuesListNotePath: _lookup/note-status.md
+      valuesListNotePath: _mm/lookup/note-status.md
       valuesFromDVQuery: ""
     command:
       id: insert__note__status
@@ -32,7 +32,7 @@ fields:
     options: {}
     path: ""
     id: T8p6oo
-version: "2.29"
+version: "2.31"
 limit: 20
 mapWithTag: false
 icon: pen
