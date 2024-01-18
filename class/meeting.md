@@ -10,12 +10,14 @@ fields:
     options: {}
     path: ""
     id: 2UrYXA
-version: "2.6"
+version: "2.9"
 limit: 20
-mapWithTag: true
+mapWithTag: false
 icon: users
-tagNames: 
-filesPaths: 
+tagNames:
+  - meeting
+filesPaths:
+  - meeting
 bookmarksGroups: 
 excludes: 
 extends: note

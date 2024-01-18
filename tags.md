@@ -31,4 +31,5 @@ tags:
   - weekly
   - daily
   - book
+  - article
 ---

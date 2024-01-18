@@ -1,17 +1,18 @@
 ---
 limit: 20
 mapWithTag: false
-icon: users
+icon: scissors
 tagNames:
-  - interview
-  - meeting
+  - article
+  - web-clip
 filesPaths:
-  - meeting
+  - clipping
 bookmarksGroups: 
 excludes: 
-extends: meeting
+extends: clipping
 savedViews: []
 favoriteView: 
 fieldsOrder: []
-version: "2.7"
+version: "2.11"
+fields: []
 ---

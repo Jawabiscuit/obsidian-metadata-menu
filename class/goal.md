@@ -1,9 +1,11 @@
 ---
 limit: 20
-mapWithTag: true
+mapWithTag: false
 icon: target
-tagNames: 
-filesPaths: 
+tagNames:
+  - goal
+filesPaths:
+  - goal
 bookmarksGroups: 
 excludes: 
 extends: note
@@ -17,7 +19,7 @@ fieldsOrder:
   - DeB7kz
   - NPttvm
   - oF8g3G
-version: "2.11"
+version: "2.14"
 fields:
   - name: reason
     type: Input

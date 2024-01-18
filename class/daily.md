@@ -1,9 +1,12 @@
 ---
 limit: 20
-mapWithTag: true
+mapWithTag: false
 icon: calendar-check-2
-tagNames: 
-filesPaths: 
+tagNames:
+  - daily
+  - journal
+filesPaths:
+  - journal/daily
 bookmarksGroups: 
 excludes: 
 extends: journal
@@ -11,7 +14,7 @@ savedViews: []
 favoriteView: 
 fieldsOrder:
   - CHgZqW
-version: "2.3"
+version: "2.7"
 fields:
   - name: overview
     type: Input

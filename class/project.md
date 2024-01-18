@@ -1,9 +1,11 @@
 ---
 limit: 20
-mapWithTag: true
+mapWithTag: false
 icon: factory
-tagNames: 
-filesPaths: 
+tagNames:
+  - project
+filesPaths:
+  - project
 bookmarksGroups: 
 excludes: 
 extends: note
@@ -14,7 +16,7 @@ fieldsOrder:
   - TmF0N9
   - i3AE7B
   - rN1q46
-version: "2.12"
+version: "2.15"
 fields:
   - name: subtitle
     type: Input

@@ -1,7 +1,7 @@
 ---
 limit: 20
 mapWithTag: true
-icon: library-big
+icon: link
 tagNames: 
 filesPaths:
   - library
@@ -11,5 +11,5 @@ extends: note
 savedViews: []
 favoriteView: 
 fieldsOrder: []
-version: "2.3"
+version: "2.5"
 ---

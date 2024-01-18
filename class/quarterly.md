@@ -1,9 +1,12 @@
 ---
 limit: 20
-mapWithTag: true
+mapWithTag: false
 icon: calendar-check-2
-tagNames: 
-filesPaths: 
+tagNames:
+  - quarterly
+  - journal
+filesPaths:
+  - journal/quarterly
 bookmarksGroups: 
 excludes: 
 extends: journal
@@ -11,7 +14,7 @@ savedViews: []
 favoriteView: 
 fieldsOrder:
   - bIyxQf
-version: "2.2"
+version: "2.6"
 fields:
   - name: overview
     type: Input

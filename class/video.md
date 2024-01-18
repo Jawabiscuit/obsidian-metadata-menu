@@ -1,9 +1,11 @@
 ---
 limit: 20
-mapWithTag: true
+mapWithTag: false
 icon: play
-tagNames: 
-filesPaths: 
+tagNames:
+  - video
+filesPaths:
+  - video
 bookmarksGroups: 
 excludes: 
 extends: note
@@ -30,7 +32,7 @@ fieldsOrder:
   - rkx83v
   - roEwWq
   - drNYl1
-version: "2.22"
+version: "2.26"
 fields:
   - name: yt-dlp
     type: Input

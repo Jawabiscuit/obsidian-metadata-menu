@@ -3,7 +3,8 @@ limit: 20
 mapWithTag: true
 icon: building
 tagNames: 
-filesPaths: 
+filesPaths:
+  - library
 bookmarksGroups: 
 excludes: 
 extends: note
@@ -13,7 +14,7 @@ fieldsOrder:
   - HAh1CQ
   - XHKcBv
   - U0ckpw
-version: "2.5"
+version: "2.6"
 fields:
   - name: hiring
     type: Boolean

@@ -1,9 +1,11 @@
 ---
 limit: 20
-mapWithTag: true
+mapWithTag: false
 icon: message-square
-tagNames: 
-filesPaths: 
+tagNames:
+  - chat
+filesPaths:
+  - chat
 bookmarksGroups: 
 excludes: 
 extends: note
@@ -23,7 +25,7 @@ fieldsOrder:
   - DPVusy
   - 9wWvJj
   - ABxp0u
-version: "2.79"
+version: "2.82"
 fields:
   - name: temperature
     type: Number

@@ -1,9 +1,11 @@
 ---
 limit: 20
-mapWithTag: true
+mapWithTag: false
 icon: book
-tagNames: 
-filesPaths: 
+tagNames:
+  - book
+filesPaths:
+  - book
 bookmarksGroups: 
 excludes: 
 extends: note
@@ -15,7 +17,7 @@ fieldsOrder:
   - O4nlmp
   - 0NzPSI
   - bNCjJU
-version: "2.10"
+version: "2.13"
 fields:
   - name: author
     type: Input

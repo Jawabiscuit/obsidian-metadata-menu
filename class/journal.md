@@ -17,11 +17,12 @@ fields:
       italic: true
     path: ""
     id: vYcbSl
-version: "2.8"
+version: "2.10"
 limit: 20
-mapWithTag: true
+mapWithTag: false
 icon: pen-tool
-tagNames: 
+tagNames:
+  - journal
 filesPaths: 
 bookmarksGroups: 
 excludes: 
