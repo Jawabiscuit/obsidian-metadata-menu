@@ -32,12 +32,13 @@ fields:
     options: {}
     path: ""
     id: T8p6oo
-version: "2.31"
+version: "2.32"
 limit: 20
 mapWithTag: false
 icon: pen
 tagNames: 
-filesPaths: 
+filesPaths:
+  - library
 bookmarksGroups: 
 excludes: 
 extends: all

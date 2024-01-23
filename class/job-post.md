@@ -3,8 +3,7 @@ limit: 20
 mapWithTag: true
 icon: pin
 tagNames: 
-filesPaths:
-  - library
+filesPaths: 
 bookmarksGroups: 
 excludes: 
 extends: note
@@ -16,7 +15,7 @@ fieldsOrder:
   - 11pd5G
   - 0N3ZIi
   - uMR6kL
-version: "2.20"
+version: "2.22"
 fields:
   - name: active
     type: Boolean
