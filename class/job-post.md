@@ -2,20 +2,27 @@
 limit: 20
 mapWithTag: true
 icon: pin
-tagNames: 
+tagNames:
+  - job-post
 filesPaths: 
 bookmarksGroups: 
 excludes: 
-extends: note
+extends: resource
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - enL7qi
+  - 93ONbB
+  - 30rn3C
+  - OVaDfX
+  - PIpDtX
+  - 5nojoz
   - Aw6TGg
   - jSs3bH
   - 11pd5G
   - 0N3ZIi
   - uMR6kL
-version: "2.22"
+version: "2.43"
 fields:
   - name: active
     type: Boolean
@@ -26,7 +33,7 @@ fields:
       label: Insert active field
     path: ""
     id: uMR6kL
-  - name: work-from
+  - name: workFrom
     type: Select
     options:
       valuesList:
@@ -38,7 +45,7 @@ fields:
       valuesFromDVQuery: ""
     path: ""
     id: 0N3ZIi
-  - name: job-type
+  - name: jobType
     type: Select
     options:
       valuesList:
@@ -51,7 +58,7 @@ fields:
       valuesFromDVQuery: ""
     path: ""
     id: 11pd5G
-  - name: last-contact
+  - name: lastContact
     type: Date
     options:
       dateFormat: YYYY-MM-DD
@@ -59,18 +66,58 @@ fields:
     path: ""
     id: jSs3bH
     command:
-      id: insert__jSs3bH
+      id: insert__job-post__lastContact
       icon: calendar
-      label: Insert last-contact field
-  - name: app-sent
+      label: Insert lastContact field
+  - name: appSent
     type: DateTime
     options:
       dateFormat: YYYY-MM-DD HH:mm
       defaultInsertAsLink: "false"
     command:
-      id: insert__job-post__app-sent
+      id: insert__job-post__appSent
       icon: calendar-clock
-      label: Insert app-sent field
+      label: Insert appSent field
     path: ""
     id: Aw6TGg
+  - name: status
+    type: Cycle
+    options:
+      valuesList: {}
+      sourceType: ValuesListNotePath
+      valuesListNotePath: _mm/lookup/job-status.md
+      valuesFromDVQuery: ""
+    path: ""
+    id: 5nojoz
+  - name: recruiterLink
+    type: Input
+    options: {}
+    path: ""
+    id: PIpDtX
+  - name: directLink
+    type: Input
+    options: {}
+    path: ""
+    id: OVaDfX
+  - name: project
+    type: File
+    options:
+      dvQueryString: dv.pages("#project").where(p => ["_templates", "_mm"].every(path => !p.file.path.includes(path)))
+      customRendering: "page.file.aliases.length ? page.file.aliases[0] : page.file.name"
+      customSorting: a.created - b.created
+    path: ""
+    id: 30rn3C
+  - name: company
+    type: File
+    options:
+      dvQueryString: dv.pages("#company").where(p => ["_templates", "_mm"].every(path => !p.file.path.includes(path)))
+      customRendering: "page.file.aliases.length ? page.file.aliases[0] : page.file.name"
+      customSorting: a.created - b.created
+    path: ""
+    id: 93ONbB
+  - name: applied
+    type: Boolean
+    options: {}
+    path: ""
+    id: enL7qi
 ---

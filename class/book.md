@@ -12,29 +12,24 @@ extends: note
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - ctApQa
   - 8tIqiz
   - auZbcA
   - O4nlmp
-  - 0NzPSI
   - bNCjJU
-version: "2.13"
+version: "2.16"
 fields:
   - name: author
     type: Input
     options: {}
     path: ""
     id: bNCjJU
-  - name: reference
-    type: Input
-    options: {}
-    path: ""
-    id: 0NzPSI
   - name: rating
     type: Cycle
     options:
       valuesList: {}
       sourceType: ValuesListNotePath
-      valuesListNotePath: _lookup/star-rating.md
+      valuesListNotePath: _mm/lookup/star-rating.md
       valuesFromDVQuery: ""
     command:
       id: insert__book__rating
@@ -56,4 +51,16 @@ fields:
       defaultInsertAsLink: "false"
     path: ""
     id: 8tIqiz
+  - name: status
+    type: Cycle
+    options:
+      valuesList:
+        "1": read-later
+        "2": reading
+        "3": finished
+      sourceType: ValuesList
+      valuesListNotePath: ""
+      valuesFromDVQuery: ""
+    path: ""
+    id: ctApQa
 ---

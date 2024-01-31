@@ -32,4 +32,9 @@ tags:
   - daily
   - book
   - article
+  - resource
+  - game-company
+  - vfx-company
+  - games-job
+  - vfx-job
 ---

@@ -1,7 +1,6 @@
+in-progress
 todo
-wtg
-ip
-hld
-blkd
-fin
-cmpt
+waiting
+hold
+blocked
+finished

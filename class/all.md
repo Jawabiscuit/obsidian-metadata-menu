@@ -19,7 +19,21 @@ fields:
     options: {}
     path: ""
     id: XCEBGO
-version: "2.9"
+  - name: alias
+    type: Input
+    options: {}
+    path: ""
+    id: Npd6j1
+  - name: tags
+    type: Multi
+    options:
+      valuesList: {}
+      sourceType: ValuesListNotePath
+      valuesListNotePath: _mm/lookup/tags.md
+      valuesFromDVQuery: ""
+    path: ""
+    id: ajMIfA
+version: "2.11"
 cssclasses: 
 limit: 20
 mapWithTag: false
@@ -32,6 +46,8 @@ extends:
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - ajMIfA
+  - Npd6j1
   - XCEBGO
   - HARzM9
   - s56JYw

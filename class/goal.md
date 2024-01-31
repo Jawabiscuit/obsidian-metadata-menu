@@ -12,14 +12,15 @@ extends: note
 savedViews: []
 favoriteView: 
 fieldsOrder:
-  - SC6S84
+  - vEdVrz
+  - wWAZxJ
   - kRFQwf
   - YYE52T
   - XvE5q8
   - DeB7kz
-  - NPttvm
   - oF8g3G
-version: "2.14"
+  - NPttvm
+version: "2.55"
 fields:
   - name: reason
     type: Input
@@ -31,7 +32,7 @@ fields:
     options:
       valuesList: {}
       sourceType: ValuesListNotePath
-      valuesListNotePath: _lookup/timespan.md
+      valuesListNotePath: _mm/lookup/timespan.md
       valuesFromDVQuery: ""
     path: ""
     id: NPttvm
@@ -40,7 +41,7 @@ fields:
     options: {}
     path: ""
     id: DeB7kz
-  - name: project-tv
+  - name: projectTV
     type: Input
     options: {}
     path: ""
@@ -56,8 +57,18 @@ fields:
     path: ""
     id: kRFQwf
   - name: img
+    type: MultiMedia
+    options:
+      folders:
+        - attachment
+      display: card
+      thumbnailSize: "400"
+      customSorting: a.stat.ctime - b.stat.ctime
+    path: ""
+    id: vEdVrz
+  - name: target
     type: Input
     options: {}
     path: ""
-    id: SC6S84
+    id: wWAZxJ
 ---

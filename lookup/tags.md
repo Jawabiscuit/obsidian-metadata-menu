@@ -1,5 +1,6 @@
 daily
 reference
+resource
 project
 goal
 yt

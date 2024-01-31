@@ -8,7 +8,7 @@ filesPaths:
   - chat
 bookmarksGroups: 
 excludes: 
-extends: note
+extends: all
 savedViews: []
 favoriteView: 
 fieldsOrder:
@@ -21,11 +21,10 @@ fieldsOrder:
   - VxWSX7
   - HWEH6r
   - 5qj65J
-  - DF2ISD
+  - WIpc8v
   - DPVusy
   - 9wWvJj
-  - ABxp0u
-version: "2.82"
+version: "2.147"
 fields:
   - name: temperature
     type: Number
@@ -74,25 +73,20 @@ fields:
     options: {}
     path: ""
     id: 5qj65J
-  - name: system_commands
-    type: YAML
-    options: {}
-    path: ""
-    id: DF2ISD
   - name: template
     type: File
     options:
-      dvQueryString: dv.pages('"_template/chat/prompt"')
+      dvQueryString: dv.pages('"_templates/chat/prompt"')
     path: ""
     id: DPVusy
   - name: max_tokens
     type: Select
     options:
       valuesList:
-        "1": "512"
-        "2": "1024"
-        "3": "2048"
-        "4": "4096"
+        "1": "4096"
+        "2": "512"
+        "3": "1024"
+        "4": "2048"
       sourceType: ValuesList
       valuesListNotePath: ""
       valuesFromDVQuery: ""
@@ -110,12 +104,14 @@ fields:
   - name: project
     type: File
     options:
-      dvQueryString: dv.pages("#project")
+      dvQueryString: dv.pages("#project").where(p => ["_templates", "_mm"].every(path => !p.file.path.includes(path)))
+      customRendering: "page.file.aliases.length ? page.file.aliases[0] : page.file.name"
+      customSorting: a.created - b.created
     path: ""
     id: 9wWvJj
-  - name: parent
-    type: File
+  - name: system_commands
+    type: YAML
     options: {}
     path: ""
-    id: ABxp0u
+    id: WIpc8v
 ---

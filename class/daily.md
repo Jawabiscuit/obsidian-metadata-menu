@@ -4,7 +4,6 @@ mapWithTag: false
 icon: calendar-check-2
 tagNames:
   - daily
-  - journal
 filesPaths:
   - journal/daily
 bookmarksGroups: 
@@ -14,7 +13,7 @@ savedViews: []
 favoriteView: 
 fieldsOrder:
   - CHgZqW
-version: "2.7"
+version: "2.8"
 fields:
   - name: overview
     type: Input

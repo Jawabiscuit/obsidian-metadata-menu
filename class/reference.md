@@ -2,13 +2,15 @@
 limit: 20
 mapWithTag: true
 icon: library-big
-tagNames: 
+tagNames:
+  - reference
 filesPaths: 
 bookmarksGroups: 
 excludes: 
-extends: note
+extends: resource
 savedViews: []
 favoriteView: 
 fieldsOrder: []
-version: "2.4"
+version: "2.10"
+fields: []
 ---

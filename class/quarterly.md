@@ -4,17 +4,17 @@ mapWithTag: false
 icon: calendar-check-2
 tagNames:
   - quarterly
-  - journal
 filesPaths:
   - journal/quarterly
 bookmarksGroups: 
-excludes: 
+excludes:
+  - bar
 extends: journal
 savedViews: []
 favoriteView: 
 fieldsOrder:
   - bIyxQf
-version: "2.6"
+version: "2.8"
 fields:
   - name: overview
     type: Input

@@ -1,8 +1,9 @@
 ---
 limit: 20
-mapWithTag: false
+mapWithTag: true
 icon: layout-dashboard
-tagNames: 
+tagNames:
+  - home
 filesPaths: 
 bookmarksGroups: 
 excludes: 
@@ -11,7 +12,7 @@ savedViews: []
 favoriteView: 
 fieldsOrder:
   - vwrnXK
-version: "2.6"
+version: "2.12"
 fields:
   - name: cssClasses
     type: Multi

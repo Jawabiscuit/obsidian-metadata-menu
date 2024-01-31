@@ -1,25 +1,25 @@
 ---
 limit: 20
-mapWithTag: true
-icon: link
+mapWithTag: false
+icon: pin
 tagNames:
-  - resource
+  - vfx-job
 filesPaths: 
 bookmarksGroups: 
 excludes: 
-extends: note
+extends: job-post
 savedViews: []
 favoriteView: 
 fieldsOrder:
-  - N5jaVq
-version: "2.9"
+  - YEhVKC
+version: "2.3"
 fields:
-  - name: project
+  - name: company
     type: File
     options:
-      dvQueryString: dv.pages("#project").where(p => ["_templates", "_mm"].every(path => !p.file.path.includes(path)))
+      dvQueryString: dv.pages("#vfx-company").where(p => ["_templates", "_mm"].every(path => !p.file.path.includes(path)))
       customRendering: "page.file.aliases.length ? page.file.aliases[0] : page.file.name"
       customSorting: a.created - b.created
     path: ""
-    id: N5jaVq
+    id: YEhVKC
 ---

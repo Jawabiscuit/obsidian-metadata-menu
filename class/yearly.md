@@ -4,14 +4,14 @@ mapWithTag: false
 icon: calendar-check-2
 tagNames:
   - yearly
-  - journal
 filesPaths:
   - journal/yearly
 bookmarksGroups: 
-excludes: 
+excludes:
+  - bar
 extends: journal
 savedViews: []
 favoriteView: 
 fieldsOrder: []
-version: "2.6"
+version: "2.8"
 ---
