@@ -7,14 +7,13 @@ tagNames:
 filesPaths:
   - journal/monthly
 bookmarksGroups: 
-excludes:
-  - bar
+excludes: 
 extends: journal
 savedViews: []
 favoriteView: 
 fieldsOrder:
   - BIfdFy
-version: "2.10"
+version: "2.5"
 fields:
   - name: overview
     type: Input

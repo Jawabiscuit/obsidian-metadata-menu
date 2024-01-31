@@ -7,10 +7,9 @@ tagNames:
 filesPaths:
   - journal/weekly
 bookmarksGroups: 
-excludes:
-  - bar
+excludes: 
 extends: journal
-savedViews: 
+savedViews: []
 favoriteView: 
 fieldsOrder:
   - 53rzW1

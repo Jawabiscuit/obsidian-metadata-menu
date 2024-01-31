@@ -7,11 +7,10 @@ tagNames:
 filesPaths:
   - journal/yearly
 bookmarksGroups: 
-excludes:
-  - bar
+excludes: 
 extends: journal
 savedViews: []
 favoriteView: 
 fieldsOrder: []
-version: "2.8"
+version: "2.7"
 ---
