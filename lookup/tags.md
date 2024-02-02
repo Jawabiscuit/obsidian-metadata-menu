@@ -8,6 +8,7 @@ home
 kanban
 company
 job-post
+article
 web-clip
 document
 video
