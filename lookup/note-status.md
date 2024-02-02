@@ -1,6 +1,6 @@
-in-progress
 todo
+in-progress
 waiting
 hold
 blocked
-finished
+done
