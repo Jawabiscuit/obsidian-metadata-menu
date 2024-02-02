@@ -33,7 +33,8 @@ fields:
       valuesFromDVQuery: ""
     path: ""
     id: ajMIfA
-version: "2.11"
+    display: asList
+version: "2.12"
 cssclasses: 
 limit: 20
 mapWithTag: false

@@ -14,10 +14,10 @@ favoriteView:
 fieldsOrder:
   - AqZQDe
   - V2oTjM
-  - HAh1CQ
   - XHKcBv
   - U0ckpw
-version: "2.19"
+  - bhcq4b
+version: "2.26"
 fields:
   - name: hiring
     type: Boolean
@@ -29,11 +29,6 @@ fields:
     options: {}
     path: ""
     id: XHKcBv
-  - name: locations
-    type: YAML
-    options: {}
-    path: ""
-    id: HAh1CQ
   - name: img
     type: MultiMedia
     options:
@@ -49,4 +44,9 @@ fields:
     options: {}
     path: ""
     id: AqZQDe
+  - name: location
+    type: Input
+    options: {}
+    path: ""
+    id: bhcq4b
 ---
