@@ -7,13 +7,14 @@ tagNames:
 filesPaths:
   - journal/quarterly
 bookmarksGroups: 
-excludes: 
+excludes:
+  - project
 extends: journal
 savedViews: []
 favoriteView: 
 fieldsOrder:
   - bIyxQf
-version: "2.7"
+version: "2.8"
 fields:
   - name: overview
     type: Input

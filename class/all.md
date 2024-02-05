@@ -34,7 +34,17 @@ fields:
     path: ""
     id: ajMIfA
     display: asList
-version: "2.12"
+  - name: prefix
+    type: Input
+    options: {}
+    path: ""
+    id: 3AuPbP
+  - name: suffix
+    type: Input
+    options: {}
+    path: ""
+    id: 2gDijV
+version: "2.17"
 cssclasses: 
 limit: 20
 mapWithTag: false
@@ -47,6 +57,8 @@ extends:
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - 2gDijV
+  - 3AuPbP
   - ajMIfA
   - Npd6j1
   - XCEBGO

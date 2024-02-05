@@ -6,13 +6,14 @@ tagNames:
   - home
 filesPaths: 
 bookmarksGroups: 
-excludes: 
+excludes:
+  - prefix
 extends: all
 savedViews: []
 favoriteView: 
 fieldsOrder:
   - vwrnXK
-version: "2.12"
+version: "2.13"
 fields:
   - name: cssClasses
     type: Multi

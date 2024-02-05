@@ -17,7 +17,15 @@ fields:
       italic: true
     path: ""
     id: vYcbSl
-version: "2.11"
+  - name: project
+    type: File
+    options:
+      dvQueryString: dv.pages("#project").where(p => ["_templates", "_mm"].every(path => !p.file.path.includes(path)))
+      customRendering: "page.file.aliases.length ? page.file.aliases[0] : page.file.name"
+      customSorting: a.created - b.created
+    path: ""
+    id: W3vq5Q
+version: "2.12"
 limit: 20
 mapWithTag: false
 icon: pen-tool
@@ -31,6 +39,7 @@ extends: note
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - W3vq5Q
   - 8gJAq1
   - vYcbSl
   - iJhqDP
