@@ -37,4 +37,5 @@ tags:
   - vfx-company
   - games-job
   - vfx-job
+  - periodic
 ---

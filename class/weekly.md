@@ -1,20 +1,19 @@
 ---
 limit: 20
 mapWithTag: false
-icon: calendar-check-2
+icon: history
 tagNames:
   - weekly
 filesPaths:
   - journal/weekly
 bookmarksGroups: 
-excludes:
-  - project
-extends: journal
+excludes: 
+extends: periodic
 savedViews: []
 favoriteView: 
 fieldsOrder:
   - 53rzW1
-version: "2.9"
+version: "2.12"
 fields:
   - name: overview
     type: Input

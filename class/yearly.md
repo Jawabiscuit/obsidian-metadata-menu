@@ -1,17 +1,23 @@
 ---
 limit: 20
 mapWithTag: false
-icon: calendar-check-2
+icon: history
 tagNames:
   - yearly
 filesPaths:
   - journal/yearly
 bookmarksGroups: 
-excludes:
-  - project
-extends: journal
+excludes: 
+extends: periodic
 savedViews: []
 favoriteView: 
-fieldsOrder: []
-version: "2.8"
+fieldsOrder:
+  - l6PIJc
+version: "2.13"
+fields:
+  - name: overview
+    type: Input
+    options: {}
+    path: ""
+    id: l6PIJc
 ---

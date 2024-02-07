@@ -1,7 +1,7 @@
 ---
 limit: 20
 mapWithTag: false
-icon: calendar-check-2
+icon: history
 tagNames:
   - monthly
 filesPaths:
@@ -9,12 +9,12 @@ filesPaths:
 bookmarksGroups: 
 excludes:
   - project
-extends: journal
+extends: periodic
 savedViews: []
 favoriteView: 
 fieldsOrder:
   - BIfdFy
-version: "2.6"
+version: "2.8"
 fields:
   - name: overview
     type: Input
