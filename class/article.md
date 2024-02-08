@@ -4,15 +4,13 @@ mapWithTag: false
 icon: scissors
 tagNames:
   - article
-  - web-clip
-filesPaths:
-  - clipping
+filesPaths: 
 bookmarksGroups: 
 excludes: 
 extends: clipping
 savedViews: []
 favoriteView: 
 fieldsOrder: []
-version: "2.11"
+version: "2.15"
 fields: []
 ---

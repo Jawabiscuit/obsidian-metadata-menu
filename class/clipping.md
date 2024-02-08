@@ -11,9 +11,10 @@ extends: note
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - GbTESy
   - cvJD67
   - D2Fzz0
-version: "2.4"
+version: "2.6"
 fields:
   - name: author
     type: Input
@@ -25,4 +26,15 @@ fields:
     options: {}
     path: ""
     id: cvJD67
+  - name: status
+    type: Cycle
+    options:
+      valuesList:
+        "1": read-later
+        "2": finished-reading
+      sourceType: ValuesList
+      valuesListNotePath: ""
+      valuesFromDVQuery: ""
+    path: ""
+    id: GbTESy
 ---
