@@ -31,12 +31,11 @@ mapWithTag: false
 icon: pen-tool
 tagNames:
   - journal
-filesPaths:
-  - journal
+filesPaths: []
 bookmarksGroups: 
 excludes: 
 extends: note
-savedViews: []
+savedViews: 
 favoriteView: 
 fieldsOrder:
   - W3vq5Q
