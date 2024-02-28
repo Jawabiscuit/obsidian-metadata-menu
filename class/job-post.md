@@ -11,6 +11,7 @@ extends: resource
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - wWE1q5
   - enL7qi
   - 93ONbB
   - 30rn3C
@@ -22,7 +23,7 @@ fieldsOrder:
   - 11pd5G
   - 0N3ZIi
   - uMR6kL
-version: "2.43"
+version: "2.44"
 fields:
   - name: active
     type: Boolean
@@ -120,4 +121,9 @@ fields:
     options: {}
     path: ""
     id: enL7qi
+  - name: overview
+    type: Input
+    options: {}
+    path: ""
+    id: wWE1q5
 ---

@@ -12,12 +12,12 @@ extends: resource
 savedViews: []
 favoriteView: 
 fieldsOrder:
-  - AqZQDe
+  - H5X8qZ
   - V2oTjM
   - XHKcBv
   - U0ckpw
   - bhcq4b
-version: "2.26"
+version: "2.28"
 fields:
   - name: hiring
     type: Boolean
@@ -39,14 +39,14 @@ fields:
       customSorting: a.stat.ctime - b.stat.ctime
     path: ""
     id: V2oTjM
-  - name: jobPosts
-    type: Input
-    options: {}
-    path: ""
-    id: AqZQDe
   - name: location
     type: Input
     options: {}
     path: ""
     id: bhcq4b
+  - name: overview
+    type: Input
+    options: {}
+    path: ""
+    id: H5X8qZ
 ---

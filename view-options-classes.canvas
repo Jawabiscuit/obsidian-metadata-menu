@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"ba1b8f0ae22499c2","type":"group","x":-900,"y":360,"width":2180,"height":500,"label":"Tertiary"},
+		{"id":"be73c58a70096c21","type":"group","x":-900,"y":-120,"width":2180,"height":420,"label":"Secondary"},
+		{"id":"f71469f1c04c742c","type":"group","x":-900,"y":-280,"width":1670,"height":100,"label":"Base"},
+		{"id":"b5fb3e3107ffa120","type":"group","x":-300,"y":-80,"width":290,"height":340,"label":"Periodic"},
+		{"id":"d5b78d13584ad29d","type":"group","x":440,"y":-80,"width":300,"height":260,"label":"Job Post"},
+		{"id":"23bf81344e08b7ee","type":"group","x":-305,"y":423,"width":300,"height":175,"label":"Daily"},
+		{"id":"77267eef2d6bf150","type":"group","x":920,"y":434,"width":337,"height":154,"label":"Game Company"},
+		{"id":"eb2f18db858e4c35","type":"group","x":920,"y":660,"width":337,"height":154,"label":"VFX Company"},
+		{"id":"00ddb5361ca9aae7","type":"text","text":"Project","x":-880,"y":-100,"width":250,"height":60,"color":"5"},
+		{"id":"e0d7fd6bd9e11425","type":"text","text":"Journal","x":-580,"y":-100,"width":250,"height":60,"color":"5"},
+		{"id":"0c9b02609bdd5683","type":"text","text":"Base","x":-285,"y":-260,"width":250,"height":60,"color":"6"},
+		{"id":"e468d4b8970911d6","type":"text","text":"➖ jobPosts view","x":960,"y":20,"width":250,"height":60,"color":"1"},
+		{"id":"d810438e04167094","type":"text","text":"Company","x":960,"y":-100,"width":250,"height":60,"color":"5"},
+		{"id":"c64595556badc20a","type":"text","text":"➕ overview view","x":960,"y":80,"width":250,"height":60,"color":"4"},
+		{"id":"0cb12bdd3b933e24","type":"text","text":"add tags\n- reference\n- resource\n- chat\n- yt\n- goal\n- project","x":-280,"y":-54,"width":250,"height":279},
+		{"id":"42445d3a5f85fcb7","type":"text","text":"Weekly","x":20,"y":-100,"width":250,"height":60,"color":"5"},
+		{"id":"49644f5e83bc83fa","type":"text","text":"add tag\n\n- journal","x":-285,"y":445,"width":250,"height":117},
+		{"id":"4a8726226a48400c","type":"text","text":"Monthly","x":60,"y":-40,"width":250,"height":60,"color":"5"},
+		{"id":"8e4b22cb99ade96d","type":"text","text":"Quarterly","x":100,"y":20,"width":250,"height":60,"color":"5"},
+		{"id":"df00ceadbcf534eb","type":"text","text":"replace tag\n\n- job-post -> games-job","x":940,"y":456,"width":297,"height":104},
+		{"id":"9ccadb9b79d3b582","type":"text","text":"replace tag\n\n- job-post -> vfx-job","x":940,"y":690,"width":297,"height":104},
+		{"id":"9d35607941745fb5","type":"text","text":"Yearly","x":145,"y":80,"width":250,"height":60,"color":"5"},
+		{"id":"b1f702da1d573f9f","type":"text","text":"1 view options class for Job Post, Games Job, and VFX Job notes","x":460,"y":-55,"width":250,"height":105},
+		{"id":"37867b8ed8e5edeb","type":"text","text":"➕ overview view","x":460,"y":80,"width":250,"height":60,"color":"4"}
+	],
+	"edges":[
+		{"id":"347a98a5cb6c03ed","fromNode":"b5fb3e3107ffa120","fromSide":"bottom","toNode":"23bf81344e08b7ee","toSide":"top"},
+		{"id":"edbff61ee7a94f22","fromNode":"d810438e04167094","fromSide":"bottom","toNode":"77267eef2d6bf150","toSide":"top"}
+	]
+}
